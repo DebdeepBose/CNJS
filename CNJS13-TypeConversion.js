@@ -9,8 +9,6 @@ console.log(typeof scoreStr); // This will return "string"
 let toNum = Number(scoreStr); // Number() converts string to number
 console.log(toNum); // Now it’s a number
 
-// ------------------------------------------------------
-
 let scoreStr2 = "33abc"; // This string has letters too
 let toNum2 = Number(scoreStr2); // JS tries to convert it
 
