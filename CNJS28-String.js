@@ -31,3 +31,7 @@ let shotBy = new String("abcdefgHijklmnop");
 console.log(nephew);
 console.log(shotBy[7] + shotBy[0] + shotBy[13] + shotBy[10]); 
 // We access and combine characters using their index just like arrays
+
+// In Javascript, strings are immutable which means once a string is created, 
+// it cannot be changed directly. Any operation that appears to modify a 
+// string actually creates and returns a new string, leaving the original one unchanged
