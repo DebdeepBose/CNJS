@@ -1,0 +1,26 @@
+* {
+  padding: none;
+  outline: none;
+}
+body {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sq{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    transition: all 0.1s ease-in-out;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.oval{
+    width: 600px;
+    border-radius: 50%;
+}
