@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-row {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input{
+    height: 17px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button {
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  transform-origin: center center;
+  will-change: transform;
+  color: black;
+  outline: none;
+  background-color: antiquewhite;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.9);
+}
