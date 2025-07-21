@@ -43,6 +43,6 @@ console.log("");
 arr.forEach((element) => {
   console.log(element); // Prints each element in the array
 }); 
-// forEach works only on arrays, NOT on objects or array-like structures, 
+// forEach works only on arrays & maps, NOT on objects or array-like structures, 
 // however it works perfectly fine with objects inside Arrays
 
