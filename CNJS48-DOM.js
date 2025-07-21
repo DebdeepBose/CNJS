@@ -18,3 +18,12 @@ let btn1 = document.getElementById("btn");
 btn1.addEventListener("click", () => {
   text.style.color = "red"; //Changes the text color to red
 });
+
+//Lets Learn About .querySelector()
+// .querySelector() is used to select the first matching element from the DOM using a CSS selector.
+// Example: document.querySelector("h1") → selects the first <h1> on the page.
+
+// .querySelectorAll() selects ALL matching elements and returns a NodeList (like an array, but not exactly).
+// Example: document.querySelectorAll("h1") → selects all <h1> elements on the page.
+
+// You can loop over the result of querySelectorAll using for...of, or convert it to an array if needed.
